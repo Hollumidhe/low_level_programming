@@ -7,7 +7,7 @@
  * this program prints "programming is positive, zero, or negative"
  * Return: 0
  */
-int main(void) 
+int main(void)/*function is not fixed here*/
 {
 int n;
 srand(time(0));
