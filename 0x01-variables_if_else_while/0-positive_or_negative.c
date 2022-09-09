@@ -5,8 +5,7 @@
  * main - Entry point
  * Return: Always 0 (Success)
  */
-int main(void) /*this specify that there no function for this*/
-/* body of main function */
+int main(void) {/*this specify that there no function for this*/}
 {
 int n;
 srand(time(0));
