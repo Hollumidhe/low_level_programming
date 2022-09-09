@@ -8,12 +8,11 @@
  */
 int main(void)
 {
-int n;
-srand(time(0));
-n = rand() - RAND_MAX / 2;
- char low;
-	for (low = 'a'; low <= 'z'; low++)
-		putchar(low);
-		putchar("\n");
-	return (0);
+char abc;
+for (abc = 'a'; abc <= 'z'; abc++)
+{
+putchar(abc);
+}
+putchar('\n');
+return (0);
 }
