@@ -4,15 +4,15 @@
 *
 * Return: Always 0 (Success)
 */
-int main(void)  
+int main(void)
 {
 int p;
 int k;
 for (p = '0'; p < '9'; p++)
 {
-for (k = '0';k <= '9'; k++)
-{    
-if (p == '0' && k <'1')
+for (k = '0'; k <= '9'; k++)
+{
+if (p == '0' && k < '1')
 continue;
 if (p == '1' && k < '2')
 continue;
