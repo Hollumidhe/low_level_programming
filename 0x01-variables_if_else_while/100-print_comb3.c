@@ -10,7 +10,7 @@ int p;
 int k;
 for (p = '0'; p < '9'; p++)
 {
-for (k = '0'; <= '9'; k++)
+for (k = '0';k <= '9'; k++)
 {    
 if (p == '0' && k <'1')
 continue;
@@ -34,8 +34,8 @@ putchar(p);
 putchar(k);
 if (p == '8' && k == '9')
 break;
-purchar(',');
-purchar(' ');
+putchar(',');
+putchar(' ');
 }
 }
 putchar('\n');
