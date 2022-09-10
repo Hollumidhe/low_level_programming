@@ -10,16 +10,16 @@ int p;
 int k;
 for (p = 34;p<=46;p++)
 {
-for (k = 35;m<=47;m++)
+for (k = 35;k<=47;k++)
 {
-if (k>p}
+if (k > p)
 {
-putchar(p)
-putchar(k)    
+putchar(p);
+putchar(k);
 if (p!=46 || k!=47)
 {
 putchar(',');
-putchar('');
+putchar(',');
 }
 }
 }
