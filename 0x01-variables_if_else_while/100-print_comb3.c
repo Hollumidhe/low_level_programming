@@ -10,7 +10,7 @@ int nums;
 int nums1;  
 for (nums = '0'; nums <= '9'; nums++)    
 {
-for (nums1 = '0'; nums1 <= '9'; nums1++)
+for (nums1 = '1'; nums1 <= '9'; nums1++)
 {	  
 putchar(nums);
 putchar(nums1);	  
