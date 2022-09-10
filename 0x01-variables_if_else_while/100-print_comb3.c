@@ -6,20 +6,24 @@
 */
 int main(void)  
 {
-int nums;
-int nums1;  
-for (nums = '0'; nums <= '9'; nums++)    
+int p;
+int k;
+for (p = 34;p<=46;p++)
 {
-for (nums1 = '1'; nums1 <= '9'; nums1++)
-{	  
-putchar(nums);
-putchar(nums1);	  
-if (nums == '9' && nums1 == '9')
-continue;	  
+for (k = 35;m<=47;m++)
+{
+if (k>p}
+{
+putchar(p)
+putchar(k)    
+if (p!=46 || k!=47)
+{
 putchar(',');
-putchar(' ');
+putchar('');
+}
+}
 }
 }
 putchar('\n');
 return (0);
-}
+} 
