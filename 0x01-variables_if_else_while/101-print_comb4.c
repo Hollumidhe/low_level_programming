@@ -1,11 +1,11 @@
-#include stdio.h>
+#include <stdio.h>
 /**
  * main - program that prints al possible different combination of 2 digits
  * Return: 0
  */
 int main(void)
 {
-	int c = p;
+	int c = 0;
 	int a;
 	int d;
 	
@@ -29,6 +29,7 @@ int main(void)
 
 		}
 		c++;
+	}
 putchar('\n');
 return (0);
 }
