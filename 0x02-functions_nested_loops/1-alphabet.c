@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * main - funtion that print_alphabeth in lower case
- * 
+ *
  * Return: Always 0
 
  */
