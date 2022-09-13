@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - funtion that print alphabeth in lower case
+ * main - funtion that print_alphabeth in lower case
  * 
  * Return: Always 0
 
