@@ -3,6 +3,7 @@
  * main - The program that return 0
  *
  * Return: Always 0 (success)
+ */
 int main(void)
 {
 _putchar('_');
