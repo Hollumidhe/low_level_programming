@@ -1,35 +1,31 @@
-#include
+#include "main.h"
 
 /**
-
- * main - This is the entry point
-
- * Return: will be always 0 (success)
-
- */
-
+ * main - The program that return 0
+ *
+ * Return: Always 0 (success)
 int main(void)
-
 {
+_putchar('_');
 
-    chr *sh = "main";
+_putchar('p');
+
+_putchar('u');
+
+_putchar('t');
+
+_putchar('c');
+
+_putchar('h');
+
+_putchar('a');
+
+_putchar('r');
+
+_putchar('\n');
 
 
 
-    while(*sh)
-
-    {
-
-        _putchar(*sh);
-
-        sh++
-
-    }
-
-    _putchar_("\n");
-
-
-
-    return (0);
+return (0);
 
 }
