@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_alphabeth - funtion to print abc
+ *  print_alphabet - Print alphabet in lowercase using only `_putchar`
  * void return back void
  * Return: Always 0
  */
