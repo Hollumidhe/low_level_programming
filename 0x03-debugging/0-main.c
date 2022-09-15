@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* main - causes an infinte loop
+* main - tests function that prints inter is positive or negative
 * Return: 0
 */
 int main(void)
