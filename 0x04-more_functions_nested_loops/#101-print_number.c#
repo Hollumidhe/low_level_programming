@@ -23,7 +23,7 @@ continue;
 }
 else if (x == 0)
 {
-_putchar(-(n / y)+'0');
+_putchar(-(n / y) +'0');
 x += 1;
 }
 else
