@@ -19,7 +19,7 @@ for (count = 0; count < 10; count++)
 if (n / y == 0 && x == 0)
 {
 y /= 10;
-continue
+continue;
 }
 else if (x == 0)
 {
