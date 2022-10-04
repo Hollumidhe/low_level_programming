@@ -1,21 +1,16 @@
 #include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
 /**
-* free_grid - frees 2 dimensional grid
-* @grid: two dimensional grid
-* @height: height of the array
-*
-* Return: a pointer to a 2 dimensional array of integers
+* free_grid - freeing matrix
+* @grid: matrix being passed
+* @height: freeing using this variable
+* Return: nothing
 */
 void free_grid(int **grid, int height)
 {
 int a;
-if (grid == '\0' || height <= 0)
-{
-return;
-}
-for (a = height - 1; a >= 0 ; a--)
-{
+for (a = 0; a < height; a++)
 free(grid[a]);
-}
 free(grid);
 }
