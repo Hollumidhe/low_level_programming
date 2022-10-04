@@ -77,7 +77,8 @@ c++;
 }
 words[b][c] = '\0';
 b++; c = 0;
-length = 0; str++;
+length = 0;
+str++;
 }
 }
 return (words);
