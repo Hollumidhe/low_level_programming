@@ -76,10 +76,7 @@ found_word++;
 c++;
 }
 words[b][c] = '\0';
-b++;
-c = 0;
-length = 0;
-str++;
+b++; c = 0; length = 0; str++;
 }
 }
 return (words);
