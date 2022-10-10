@@ -1,0 +1,6 @@
+#ifnedf DOG.H
+#define DOG.H
+/**
+* struct dog - list dates about dog
+* @name: name of dog
+* @age 
