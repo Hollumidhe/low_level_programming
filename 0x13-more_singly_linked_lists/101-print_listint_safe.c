@@ -1,31 +1,32 @@
-#include <stdlib.h>
 #include <stdio.h>
+#include <stdlib.h>
+#include <stdbool.h>
 #include "lists.h"
 /**
-* print_listint_safe - print list
-* @head: head node
-* Return: amount of nodes in list
-*/
+* print_listint_safe - a function that prints a listint_t
+*linked list
+* @head: points to the beginning of a linked list
+* Return: the number of nodes in the list
+**/
 size_t print_listint_safe(const listint_t *head)
 {
-int size = 0, i;
-const listint_t *tmp[100];
-if (!head)
-exit(98);
-while (head)
+const listint_t *f_ptr, *s_ptr;
+size_t size;
+size = 0;
+if (head == NULL)
+return (0);
+s_ptr = head;
+f_ptr = head->next;
+while (f_ptr != NULL && f_ptr < s_ptr)
 {
-for (i = 0; i < size; i++)
-{
-if (tmp[i] == head)
-{
-printf("-> [%p] %d\n", (void *)head, head->n);
-return (size);
+size += 1;
+printf("[%p] %i\n", (void *)s_ptr, s_ptr->n);
+s_ptr = s_ptr->next;
+f_ptr = f_ptr->next;
 }
-}
-printf("[%p] %d\n", (void *)head, head->n);
-tmp[size] = head;
-size++;
-head = head->next;
-}
+printf("[%p] %i\n", (void *)s_ptr, s_ptr->n);
+size += 1;
+if (f_ptr)
+printf("-> [%p] %i\n", (void *)f_ptr, f_ptr->n);
 return (size);
 }
